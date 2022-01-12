@@ -33,7 +33,7 @@ Header style
 */
 
 header {
-  background-color: rgba(255, 255, 255, 0.95);
+  background-color: rgba(255, 255, 255, 1);
   position: fixed;
   top: 0;
   width: 100%;
@@ -100,6 +100,9 @@ Hero style
   height: 100vh;
   min-height: 400px;
   background-image: linear-gradient(90deg, rgb(0, 0, 0), rgb(0, 0, 0));
+  position: relative;
+  top: 0;
+  z-index: 2;
 }
 
 .hero-content {
@@ -124,7 +127,7 @@ Hero style
 .hero p {
   color: rgb(255, 255, 255);
   font-size: 22px;
-  font-weight: 200;
+  font-weight: 300;
   padding-left: 0px;
   padding-top: 20px;
   max-width: min(80vw, 500px);
@@ -141,15 +144,15 @@ Hero style
   display: block;
   color: rgb(255, 255, 255);
   font-size: 16px;
-  font-weight: 200;
+  font-weight: 400;
   text-transform: uppercase;
   padding-bottom: 10px;
 }
 
 .hero svg {
   display: block;
-  max-height: 50px;
-  max-width: 50px;
+  max-height: 20px;
+  max-width: 20px;
   padding-bottom: 10px;
   margin: 0 auto;
 }
@@ -157,8 +160,8 @@ Hero style
 .cursor {
   backface-visibility: hidden;
   position: fixed;
-  width: 20px;
-  height: 20px;
+  width: 40px;
+  height: 40px;
   border-radius: 50%;
   background: white;
   transition: 0.1s;
@@ -170,11 +173,21 @@ Hero style
 .hero-item-a:hover ~ .cursor {
   width: 200px;
   height: 200px;
+  background-image: linear-gradient(
+    90deg,
+    hsla(70, 100%, 50%, 1),
+    hsla(100, 100%, 50%, 1)
+  );
 }
 
 .hero-item-b:hover ~ .cursor {
   width: 200px;
   height: 200px;
+  background-image: linear-gradient(
+    90deg,
+    hsla(70, 100%, 50%, 1),
+    hsla(100, 100%, 50%, 1)
+  );
 }
 
 @media only screen and (min-width: 600px) {
