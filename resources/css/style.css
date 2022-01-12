@@ -5,7 +5,7 @@ Global style
 * {
   margin: 0;
   padding: 0;
-  font-family: "IBM Plex Mono", monospace;
+  font-family: "IBM Plex Mono", "Space Mono", monospace;
   font-size: 16px;
 }
 
@@ -58,7 +58,7 @@ header {
 .website-logo strong {
   font-family: outfit, sans-serif;
   font-size: 24px;
-  font-weight: 600;
+  font-weight: 500;
 }
 
 nav ul {
@@ -71,7 +71,7 @@ header li {
 
 header a {
   color: black;
-  font-weight: 300;
+  font-weight: 400;
   text-decoration: none;
 }
 
@@ -85,6 +85,10 @@ header li a:hover {
   }
   .website-logo strong {
     font-size: 28px;
+  }
+
+  header li {
+    padding-left: 80px;
   }
 
   header li a {
