@@ -165,13 +165,13 @@ Hero style
 }
 
 .hero-item-a:hover ~ .cursor {
-  width: 120px;
-  height: 120px;
+  width: 200px;
+  height: 200px;
 }
 
 .hero-item-b:hover ~ .cursor {
-  width: 120px;
-  height: 120px;
+  width: 200px;
+  height: 200px;
 }
 
 @media only screen and (min-width: 600px) {
