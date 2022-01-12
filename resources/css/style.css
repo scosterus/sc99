@@ -68,11 +68,25 @@ header li {
 
 header a {
   color: black;
+  font-weight: 300;
   text-decoration: none;
 }
 
 header li a:hover {
   color: rgb(62, 62, 62);
+}
+
+@media only screen and (min-width: 600px) {
+  .website-logo {
+    font-size: 28px;
+  }
+  .website-logo strong {
+    font-size: 28px;
+  }
+
+  header li a {
+    font-size: 18px;
+  }
 }
 
 /* 
