@@ -121,12 +121,14 @@ Hero style
 .hero p {
   color: rgb(255, 255, 255);
   font-size: 22px;
+  font-weight: 200;
   padding-left: min(2vw, 20px);
-  max-width: min(50vw, 400px);
+  padding-top: 20px;
+  max-width: min(50vw, 500px);
 }
 
 .hero-item-b {
-  grid-area: 3 / 3 / 4 / 4;
+  grid-area: 3 / 2 / 4 / 5;
   justify-self: center;
   align-self: end;
 }
@@ -134,7 +136,9 @@ Hero style
 .hero span {
   display: block;
   color: rgb(255, 255, 255);
-  font-size: 18px;
+  font-size: 16px;
+  font-weight: 200;
+  text-transform: uppercase;
   padding-bottom: 10px;
 }
 
