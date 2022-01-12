@@ -132,6 +132,7 @@ Hero style
   grid-area: 3 / 2 / 4 / 5;
   justify-self: center;
   align-self: end;
+  padding: 10px;
 }
 
 .hero span {
