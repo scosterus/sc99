@@ -122,7 +122,7 @@ Hero style
   color: rgb(255, 255, 255);
   font-size: 22px;
   font-weight: 200;
-  padding-left: min(2vw, 20px);
+  padding-left: 0px;
   padding-top: 20px;
   max-width: min(50vw, 500px);
 }
@@ -149,4 +149,10 @@ Hero style
   max-width: 50px;
   padding-bottom: 10px;
   margin: 0 auto;
+}
+
+@media only screen and (min-width: 600px) {
+  .hero-item-a {
+    padding-left: max(4vw, 50px);
+  }
 }
