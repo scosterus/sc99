@@ -27,8 +27,8 @@ document.addEventListener('mousemove', e => {
 
     if(e.clientY > maxHeight) {
         cursor.style.top = maxHeight + 'px';
-        cursor.style.height = '10px';
-        cursor.style.width = '10px';
+        cursor.style.height = '0px';
+        cursor.style.width = '0px';
     }
 
 
