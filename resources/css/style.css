@@ -168,7 +168,7 @@ Hero style
   height: 80px;
   border-radius: 50%;
   background: white;
-  transition: 0.1s;
+  transition: 100ms;
   transform: translate(-50%, -50%);
   pointer-events: none;
   mix-blend-mode: difference;
