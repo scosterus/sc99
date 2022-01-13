@@ -314,12 +314,16 @@ Footer style
 */
 
 footer {
+  position: relative;
+  bottom: 0;
+  width: 100%;
   background-color: rgb(0, 0, 0);
+  z-index: 98;
 }
 
 .footer-content {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
   height: 200px;
   max-width: 1200px;
@@ -335,6 +339,7 @@ footer a {
 
 footer nav ul {
   display: flex;
+  flex-direction: column;
 }
 
 footer nav li {
@@ -347,4 +352,33 @@ footer nav a {
 }
 footer nav a::before {
   content: "> ";
+}
+
+@media only screen and (min-width: 800px) {
+  .footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 200px;
+    max-width: 1200px;
+    padding: 0 25px;
+    margin: 0 auto;
+  }
+
+  footer nav ul {
+    display: flex;
+    flex-direction: row;
+  }
+
+  footer nav li {
+    list-style: none;
+    padding-left: 50px;
+  }
+
+  footer nav a {
+    padding-left: 10px;
+  }
+  footer nav a::before {
+    content: "> ";
+  }
 }
