@@ -148,8 +148,7 @@ header li a:hover {
 
 .hero h1 {
   color: rgb(255, 255, 255);
-  font-size: min(14vw, 150px, 30vh);
-  -webkit-text-stroke: 2px rgb(255, 255, 255);
+  font-size: min(10vw, 150px, 30vh);
 }
 
 .hero p {

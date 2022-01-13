@@ -59,6 +59,7 @@ header {
   font-family: outfit, sans-serif;
   font-size: 24px;
   font-weight: 100;
+  padding-bottom: 5px;
 }
 .website-logo strong {
   font-family: outfit, sans-serif;
@@ -109,6 +110,23 @@ header li a:hover {
   }
 
   header li {
+    padding-left: 30px;
+  }
+
+  header li a {
+    font-size: 16px;
+  }
+}
+
+@media only screen and (min-width: 1000px) {
+  .website-logo {
+    font-size: 28px;
+  }
+  .website-logo strong {
+    font-size: 28px;
+  }
+
+  header li {
     padding-left: 80px;
   }
 
@@ -143,10 +161,17 @@ Hero style
   padding-left: 20px;
 }
 
-.hero h1 {
+.hero-item-a h1 {
   color: rgb(255, 255, 255);
   font-size: min(14vw, 150px, 30vh);
-  -webkit-text-stroke: 2px rgb(255, 255, 255);
+}
+
+.hero-item-a span {
+  display: inline;
+  color: rgb(255, 255, 255);
+  font-family: outfit;
+  letter-spacing: 2px;
+  font-size: min(10vw, 150px, 30vh);
 }
 
 .hero p {
@@ -165,7 +190,7 @@ Hero style
   padding: 10px;
 }
 
-.hero span {
+.hero-item-b span {
   display: block;
   color: rgb(255, 255, 255);
   font-size: 16px;
