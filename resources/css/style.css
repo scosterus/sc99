@@ -34,6 +34,10 @@ p {
 }
 a {
   font-size: 20px;
+  text-decoration: none;
+}
+a::after {
+  content: " >";
 }
 
 /* 
@@ -69,6 +73,10 @@ header {
   font-weight: 500;
 }
 
+.website-logo::after {
+  content: "";
+}
+
 nav ul {
   display: flex;
 }
@@ -81,6 +89,10 @@ header a {
   color: black;
   font-weight: 400;
   text-decoration: none;
+}
+
+header a::after {
+  content: ">";
 }
 
 header li a:hover {
@@ -254,7 +266,7 @@ Web design section style
   height: 600px;
   background-image: linear-gradient(
     90deg,
-    rgb(254, 112, 112),
-    rgb(97, 97, 255)
+    rgb(232, 232, 232),
+    rgb(232, 232, 232)
   );
 }
