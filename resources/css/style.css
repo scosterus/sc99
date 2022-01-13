@@ -36,9 +36,6 @@ a {
   font-size: 20px;
   text-decoration: none;
 }
-a:hover {
-  color: rgb(0, 0, 194);
-}
 a::after {
   content: " >";
 }
@@ -82,6 +79,10 @@ header {
 .website-logo::after {
   content: "";
 }
+.website-logo:hover:after {
+  content: "";
+  font-weight: normal;
+}
 
 nav ul {
   display: flex;
@@ -99,6 +100,10 @@ header a {
 
 header a::after {
   content: ">";
+}
+header a:hover:after {
+  content: ">";
+  font-weight: normal;
 }
 
 header li a:hover {
