@@ -36,10 +36,16 @@ a {
   font-size: 20px;
   text-decoration: none;
 }
+a:hover {
+  color: rgb(0, 0, 194);
+}
 a::after {
   content: " >";
 }
-
+a:hover:after {
+  content: " >";
+  font-weight: bold;
+}
 /* 
 Header style 
 */
