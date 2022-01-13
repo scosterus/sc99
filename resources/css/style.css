@@ -252,7 +252,7 @@ Hero style
 }
 
 /* 
-Web design section style 
+Section's styling
 */
 
 .section {
@@ -307,4 +307,12 @@ Web design section style
     rgb(232, 232, 232),
     rgb(232, 232, 232)
   );
+}
+
+/* 
+Footer style 
+*/
+
+footer {
+  height: 400px;
 }
